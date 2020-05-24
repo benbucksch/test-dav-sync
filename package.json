@@ -1,0 +1,15 @@
+{
+  "name": "test-dav-sync",
+  "version": "1.0.0",
+  "description": "Tests the syncToken of lambdabaa/dav",
+  "main": "index.js",
+  "author": "Ben Bucksch",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+      "start": "node --experimental-modules index.js"
+  },
+  "dependencies": {
+    "dav": "^1.8.0"
+  }
+}
